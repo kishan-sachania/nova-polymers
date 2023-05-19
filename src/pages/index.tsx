@@ -76,7 +76,7 @@ export default function Home() {
           <Nav
             className="me-auto nav">
             <Nav.Link className="nav_link active" href="#">Home</Nav.Link>
-            <Nav.Link className="nav_link active" href="#garden_pip">Garden Pips</Nav.Link>
+            <Nav.Link className="nav_link active" href="#garden_pip">Garden Pipes</Nav.Link>
             <Nav.Link className="nav_link active" href="#category">Category</Nav.Link>
             <Nav.Link className="nav_link active" href="#color_pelette">Color Pelette</Nav.Link>
             <Nav.Link className="nav_link active" href="#about">About making</Nav.Link>
@@ -243,7 +243,7 @@ export default function Home() {
 
       <Row id="contectus" xs={12} className="footer-parent">
         <Col xs={6} className="footer-logo">
-          <h1>Nova Pips</h1>
+          <h1>Nova Pipes</h1>
         </Col>
         <Col xs={4}>
           <div>
