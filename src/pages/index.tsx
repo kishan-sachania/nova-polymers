@@ -97,7 +97,7 @@ export default function Home() {
               const imageUrl = item.imgae;
 
               return (
-                <div className="scroll-div-image" onClick={() => onClicks(item)} >
+                <div key={imageId.toString()} className="scroll-div-image" onClick={() => onClicks(item)} >
                   <img id={imageId.toString()} className="img-border" src={imageUrl} />
                 </div>
               );
